@@ -8,13 +8,14 @@ function Login() {
 
     function formdata(e){
         e.preventDefault()
-       if(email&&pass){
-        console.log(email+" : "+pass)
-        navigate("/home")
-       }else{
-        navigate("/")
-        alert("Enter a valid Email or Password")
-       }
+        navigate("/paymentgateway/home")
+    //    if(email&&pass){
+    //     console.log(email+" : "+pass)
+    //     navigate("/PaymentGateway/home")
+    //    }else{
+    //     navigate("/")
+    //     alert("Enter a valid Email or Password")
+    //    }
         
        
     }

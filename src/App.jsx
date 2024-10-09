@@ -8,14 +8,14 @@ function App() {
 
   return (
     <>
-      <Homepage/>
-      {/* <BrowserRouter>
+     
+      <BrowserRouter>
       <Routes>
-        <Route Component={Login} path={"/"}/>
-        <Route Component={Homepage} path={"/home"}/>
+        <Route Component={Login} path={"/PaymentGateway"}/>
+        <Route Component={Homepage} path={"/PaymentGateway/home"}/>
 
       </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
 
     </>
   )

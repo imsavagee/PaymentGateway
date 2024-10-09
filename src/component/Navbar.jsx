@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 function Navbar() {
   const navigate = useNavigate();
   function logout() {
-    navigate("/");
+    navigate("/paymentgateway");
   }
   return (
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
