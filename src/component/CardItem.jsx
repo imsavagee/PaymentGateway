@@ -48,7 +48,7 @@ function CardItem() {
         
             {
                 products.map((item, index) => (
-                    <div className="card" style={{width: "18rem",margin:"1rem"}}>
+                    <div className="card" id={index} style={{width: "18rem",margin:"1rem"}}>
                         <img src="https://png.pngtree.com/png-clipart/20231007/original/pngtree-iphone-15-blue-png-image_13289457.png" className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">{item.name}</h5>

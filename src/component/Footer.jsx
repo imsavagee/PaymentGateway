@@ -129,8 +129,8 @@ function Footer() {
                     <p>Welcome to Lipkart! By accessing and using this website, you agree to comply with and be bound by the following terms and conditions. Please read them carefully before making any purchase.</p>
 
                     {
-                        termsAndConditions.map((item) => (
-                            <div style={style.container}>
+                        termsAndConditions.map((item,index) => (
+                            <div id={index} style={style.container}>
                                 <h6>{item.id}.{item.heading}</h6>
                                 <p>{item.desc}</p>
                             </div>
@@ -143,8 +143,8 @@ function Footer() {
                     <h3>Shipping Policy</h3>
                     <p>At Lipkart, we strive to deliver your products as quickly and efficiently as possible. Please review the shipping terms below:</p>
                     {
-                        shippingPolicy.map((item) => (
-                            <div style={style.container}>
+                        shippingPolicy.map((item,index) => (
+                            <div id={index} style={style.container}>
                                 <h6>{item.id}.{item.heading}</h6>
                                 <p>{item.desc}</p>
                             </div>
@@ -158,8 +158,8 @@ function Footer() {
                     <h3>Refunds/Cancellations Policy</h3>
                     <p>We at Lipkart value your satisfaction. Below is our refund and cancellation policy to ensure a smooth experience for our customers.</p>
                     {
-                        refundsCancellations.map((item) => (
-                            <div style={style.container}>
+                        refundsCancellations.map((item,index) => (
+                            <div id={index} style={style.container}>
                                 <h6>{item.id}.{item.heading} </h6>
                                 <p>{item.desc} </p>
                             </div>

@@ -8,7 +8,7 @@ function Login() {
 
     function formdata(e){
         e.preventDefault()
-        navigate("/paymentgateway/home")
+        navigate("/PaymentGateway/home")
     //    if(email&&pass){
     //     console.log(email+" : "+pass)
     //     navigate("/PaymentGateway/home")
